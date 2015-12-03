@@ -54,7 +54,7 @@ void messages() {
   if (score>0) text( "SCORE:  "+score, width*3/4, 20 );
   if (score>900) {
     if (key == 'q') score=0;
-    text( "Maximum score.\nQUITTING NOW\nPress the 'q' key to continue", width/2, 160 );
+    text( "Maximum score.\nQUITTING NOW\nPress the 'q' key to continue", width/2, 140 );
     if (score>10000) { exit(); }
   }
 }
