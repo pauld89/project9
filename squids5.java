@@ -94,7 +94,7 @@ void show() {
 }
 
 //// SUMMARIES:  List all objects in the array.
-// Display the properties of each object in the array.
+// Display the properties of each object in the array.
 void boatReport( float top, Boat b, int many ) {
   fill(255,200,200);
   rect( 50,top, width-100, 50 + 20*many );
@@ -252,8 +252,9 @@ class Boat {
     //// Fish before move:  check each squid.
     int caught=0;
     for (int i=0; i<many; i++ ) {
-      if (school[i].hit( bounty.x, surface )) {
+      if (school[i].hit( x, surface )) {
         caught += school[i].legs;
+        school[i].bottom();
       }
     }
     cargo += caught;    
