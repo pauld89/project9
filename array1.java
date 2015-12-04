@@ -1,4 +1,5 @@
 //// Array practice #1.
+//// (Static code, only!).
 
 int[] a=  { 99, 44, 72, 15, -3, 177, 0, 9, 47, 9 };
 int many=  a.length;
@@ -26,5 +27,3 @@ text( "MEAN AVERAGE:  "+avg, x, y );
 
 y += 30;
 text( "How to find the median?", x, y );
-
-
