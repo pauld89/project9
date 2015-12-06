@@ -26,8 +26,8 @@ void reset() {
 //// NEXT FRAME:  scene, action
 void draw() {
   scene();
-  action();
   show();
+  action();
 }
 void scene() {
   background( 50,150,200 );      // Dark sky.
