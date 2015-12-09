@@ -86,8 +86,7 @@ void action() {
   for (int i=0; i<many; i++) {
     for (int j=i+1; j<many; j++) {
       if (group[j].hit( group[i].x, group[i].y )) {
-        group[i].dy *=  -1;
-        group[i].dx *=  -1;
+        group[i].y=surface;
       }
     }
   }//for
@@ -152,8 +151,7 @@ class Tuna {
     fill(0);
     x += dx;
     y += dy;
-    if (x>width) dx=  -dx;
-    if (x<0) dx=  -dx;
+    if (x>width) x=0;
   }
   //// True if (xx,yy) is near me.
   boolean hit( float xx, float yy ) {
