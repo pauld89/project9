@@ -57,7 +57,7 @@ void draw() {
   action();
   
   // msgs
-  text( "Arrays of objects.", width/3, 20 );
+  text( "Arrays of objects.  (Charlie collects fins.)", width/3, 20 );
   text( "('a' key for action;\n  'r' for reset; 'q' to quit)", width/2, 45 );
 
 }  
