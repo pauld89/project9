@@ -16,15 +16,16 @@ void setup() {
   charlie.r=  255;
   charlie.g=  255;
   charlie.b=  200;
-  charlie.fins=  1;
-  //
-  charlie.y=  height-50;
-  charlie.dy=0;
     
   reset();
 
 }
 void reset() {    
+  charlie.fins=  1;
+  //
+  charlie.y=  height-50;
+  charlie.dy=0;
+  
 }
 
 //// NEXT FRAME:  scene, show, action
