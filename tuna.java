@@ -57,7 +57,7 @@ void draw() {
   action();
   
   // msgs
-  text( "Exercise with arrays of objects.", width/3, 20 );
+  text( "Arrays of objects.", width/3, 20 );
   text( "('a' key for action;\n  'r' for reset; 'q' to quit)", width/2, 45 );
 
 }  
@@ -92,7 +92,7 @@ void action() {
   }//for
   
   
-  //// Charlie steals fins.  
+  //// Charlie collects fins.  
   for (int i=0; i<many; i++) {
       if (charlie.hit( group[i].x, group[i].y )) {
         group[i].fins--;
