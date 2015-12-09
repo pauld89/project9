@@ -23,6 +23,7 @@ void setup() {
 void reset() {    
   charlie.fins=  1;
   //
+  charlie.x=100;
   charlie.y=  height-50;
   charlie.dy=0;
   
