@@ -36,10 +36,6 @@ void draw() {
   // scene
   background( 150,200,255 );
   
-  charlie.show();
-  charlie.move();
-
-  
   
   action();
   
@@ -59,6 +55,8 @@ void keyPressed() {
 void action() {  
   if (! action) return;
   
+  charlie.show();
+  charlie.move();
   
 }
     
